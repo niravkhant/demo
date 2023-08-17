@@ -38,3 +38,36 @@ git branch -M main
 # (3)=> push code to repo
 git push -u origin main
 ```
+## Deleting Files
+
+- If you delete files they will appear in git status as deleted, and you must use git add to stage them. Another way to do this is using git rm command, which both deletes a file and stages it all with one command:
+
+- To Remove File
+```bash
+  git rm example.html
+```
+- To Remove Folder
+```bash
+  git rm -r myfolder
+```
+
+## Fixing Your Last Commit Message
+
+- If you made a mistake in your last commit message, run this command:
+
+
+```bash
+  git commit --amend -m "Put your corrected message here"
+```
+## View a List/Logs of Commits
+
+- To see a list of commits with more detail (such who made the commit and when), run this command:
+
+
+```bash
+  git log
+```
+```bash
+  git log --stat
+```
+#### NOTE: If the list is long, use the Down/Up Arrow keys to scroll and hit Q to quit.
