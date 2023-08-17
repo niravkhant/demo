@@ -1,19 +1,40 @@
-…or create a new repository on the command line
+# First Github Repo for Practice
 
-echo "# demo" >> README.md
+
+## …or create a new repository on the command line
+
+Use the Git Bash Terminal for command line.
+
+```bash
 git init
+```
+```bash
 git status
+```
+```bash
 git add .
-git add README.md
+```
+```bash
 git commit -m "first commit"
+```
+```bash
 git branch -M main
+```
+```bash
 git remote add origin https://github.com/niravkhant/demo.git
+```
+```bash
 git push -u origin main
+```
+## …or push an existing repository from the command line
 
-…or push an existing repository from the command line
-
+```python
+# (1)=> set path or location
 git remote add origin https://github.com/niravkhant/demo.git
+
+# (2)=> set branch
 git branch -M main
-git push -u origin main
 
-==>This Repo is Just For Practice of Git.
+# (3)=> push code to repo
+git push -u origin main
+```
