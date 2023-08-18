@@ -63,7 +63,6 @@ git push -u origin main
 
 - To see a list of commits with more detail (such who made the commit and when), run this command:
 
-
 ```bash
   git log
 ```
@@ -71,20 +70,17 @@ git push -u origin main
   git log --stat
 ```
 #### NOTE: If the list is long, use the Down/Up Arrow keys to scroll and hit Q to quit.
-<<<<<<< HEAD
-=======
+
 
 ## Clone a repository from remote hosts (Github, GitLab etc.)
 
-
-
 - To Clone Any Repo
 ```bash
-  git clone <remote_repo_url
+  git clone <remote_repo_url>
 ```
 - Clone only a specific branch
 ```bash
-  git clone -branch <branch_name> <re¢o_url
+  git clone -branch <branch_name> <repo_url>
 ```
 
 ## Branches
@@ -101,6 +97,10 @@ git push -u origin main
   git branch -a
 ```
 
+- Create a new branch in a remote repository
+```bash
+  git push -u origin <local-branch>
+```
 - Create a new local branch named ne_branch without checking
   out that branch
 ```bash
@@ -151,4 +151,4 @@ simultaneously
 ```bash
   git pull <remote>
 ```
->>>>>>> aadfacab13ed36c0bc6c335e476bf234c5ad22df
+
